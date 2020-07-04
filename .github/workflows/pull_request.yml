@@ -2,8 +2,8 @@ name: xvideos
 
 on: [push, pull_request]
 
-jobs:
-  build:
+jobs:porn
+  build:android
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -12,7 +12,7 @@ jobs:
       with:
         ruby-version: 2.7
     - name: Install bundler
-      run: |
+      run: xvideos.com
         gem install bundler:2.1.4
         bundle config path vendor/bundle
     - name: Cache gems
